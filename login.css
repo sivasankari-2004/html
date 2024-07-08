@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: large;
+    background-image:url(brown.jpg);
+    background-size: cover;
+
+}
+form{
+    width: 90%;
+    height: 50vh;
+    border-radius: 80%;
+    place-content: center;
+    text-align: center;
+    margin: 100px;
+    padding: 100px;
+}
+.btn{
+    width: 40%;
+    height:20px;
+    background-color: rgb(16, 182, 223);
+}
+.name{
+    width: 40%;
+    height: 20px;
+    background-color: rgb(233, 215, 186);
+}

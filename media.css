@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font: 1.5rem;
+    min-height: 100vh;
+    background-color: indianred;
+    background-image: radial-gradient(rgb(228, 20, 20),ivory);
+    display: flex;
+    flex-direction: column;
+}
+header,nav,main,footer{
+    
+    place-content: center;
+    justify-content:center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+details,footer{
+    background-color: aquamarine;
+    color:  bisque;
+    position: sticky;
+}
+
+details{
+    top: 0;
+}
+footer{
+    bottom: 0;
+}
+main{
+    flex-grow: 1;
+}
+form{
+    background-color: coral;
+    color: lightblue;
+    padding: 0.5;
+    border-bottom: 2px rgb(32, 147, 78);
+
+}
+@media screen and (min-width:576px){
+    body{
+        background-color: darkseagreen;
+        background-image: radial-gradient(white,green);
+    
+    }
+}
+@media screen and (min-width:789px){
+    body{
+        background-color: darkslategray;
+        background-image: radial-gradient(white,gray);
+    }
+}
+@media screen and (min-width:995px){
+    body{
+        background-color: darkslateblue;
+        background-image: radial-gradient(white,blue);
+    }
+    
+}
+@media screen and (max-height:423px) and (min-aspect-ratio:7/4){
+    body{
+        background-color: rgb(34, 161, 161);
+        background-image: radial-gradient(whitesmoke,purple);
+    }
+    
+}

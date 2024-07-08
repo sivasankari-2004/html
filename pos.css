@@ -1,0 +1,52 @@
+ *{
+    scroll-behavior: smooth;
+
+ }
+ section{
+    height: 100vh;
+
+ }
+body{
+   background-color: #f5f5f5;
+   font-family: 'Roboto', sans-serif;
+   font-size: 16px;
+   background-image:url(Campus.jpg);
+   background-repeat: no-repeat;
+   background-size:98%;
+
+
+
+}
+ .lightblue{
+    background-color: lightblue;
+    align-items:center;
+ }
+ .red{
+    background-color: rgb(96, 140, 152);
+ }
+ .green{
+    background-color: rgb(193, 175, 196);
+ }
+ footer{
+    position:sticky;
+    bottom: 0;
+    min-width:100;
+    background-color: lightpink;
+
+    text-align: center;
+ }
+ header{
+    font-size: medium;
+    color:darkgrey;
+    text-align: center;
+    height:50px;
+    position:sticky;
+    top:0;
+ }
+ button{
+    position:fixed;
+    top:300px;
+    font-size:inherit;
+    z-index:1;
+ }
+
